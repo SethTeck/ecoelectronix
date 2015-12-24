@@ -1,6 +1,36 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    height: auto;
+    width: auto;
+}
+
+h1 {
+  font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+}
+
+h3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  color: white;
+}
+
+h4 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  color: #b7b7b7;
+  line-height: 120%;
+}
+
 .image-size {
-  height: 120px;
+  height: 40px;
   width: auto;
+  margin-top: 4px;
 }
 
 .box {
@@ -21,13 +51,19 @@
   border-radius: 0;
   box-shadow: 0px 1px 3px #2a2a2a;
   margin-bottom:0px;
+  height: 50px;
 }
 
-.navbar-inverse .navbar-brand {
-  color: #39B54A;
-  font-family: 'Helvetica Neue', Helvetica, sans-serif;
-  font-size: 26px;
+.navbar-fixed-bottom.navbar-inverse {
+  padding-bottom: 10px;
 }
+
+// .navbar-inverse .navbar-brand {
+//   color: #39B54A;
+//   font-family: 'Helvetica Neue', Helvetica, sans-serif;
+//   font-size: 26px;
+//   margin-top: 25px;
+// }
 
 .navbar-inverse .navbar-brand:visited {
   color: #39B54A;
@@ -42,5 +78,10 @@
 }
 
 .navbar-inverse .navbar-right {
-  font-size: 20px;
+font-family: 'Raleway', sans-serif;
+font-size: 22px;
+}
+
+.clr {
+  clear:both;
 }

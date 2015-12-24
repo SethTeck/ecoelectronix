@@ -1,6 +1,9 @@
 Ecoelectronix::Application.routes.draw do
   root 'static_pages#index'
   get 'about', :to => 'static_pages#about'
+  get "privacy", :to => "static_pages#privacy"
+  get "careers", :to => "static_pages#careers"
+  get "team", :to => "static_pages#team"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
