@@ -1,8 +1,25 @@
+@import url(http://getbootstrap.com/dist/css/bootstrap.css);
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
     height: auto;
     width: auto;
+    margin-top: 60px
+}
+
+.bannerContainer {
+    position:relative;
+    height:600px;
+
+}
+.carousel {
+    position:absolute;
+    top:0;
+
+}
+
+li {
+
 }
 
 h1 {
@@ -52,6 +69,9 @@ h4 {
   box-shadow: 0px 1px 3px #2a2a2a;
   margin-bottom:0px;
   height: 60px;
+  position:absolute;
+  z-index:10;
+  width:100%;
 }
 
 .navbar-fixed-bottom.navbar-inverse {
