@@ -57,17 +57,17 @@
 
 <%= yield %>
 
-
  <br class="clr" />
-      <div class="navbar-fixed-bottom navbar-inverse">
+      <div class="navbar-fixed-bottom hidden-xs">
         <div class="col-xs-12 col-sm-4">
           <h3><b>About</b></h3>
-          <%= link_to 'Team', team_path %>
+          <h4><%= link_to 'Team', team_path %>
           <br />
           <%= link_to 'Careers', careers_path %>
           <br />
           <%= link_to 'Privacy Policy', privacy_path %>
-          <br />
+          <br /></h4>
+          <h5>Copyright © 2015 EcoElectronix All rights reserved.</h5>
         </div>
         <div class="col-xs-12 col-sm-5">
           <h3><b>Contact</b></h3>

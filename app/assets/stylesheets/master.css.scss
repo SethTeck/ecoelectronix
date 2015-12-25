@@ -18,15 +18,21 @@ h2 {
 
 h3 {
   font-family: 'Raleway', sans-serif;
-  font-size: 18px;
-  color: white;
+  font-size: 14px;
+  color: #3D3D3D;
 }
 
 h4 {
   font-family: 'Raleway', sans-serif;
-  font-size: 14px;
-  color: #b7b7b7;
-  line-height: 120%;
+  font-size: 12px;
+  color: #6E6E6E;
+  line-height: 130%;
+}
+
+h5 {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 10px;
+  color: #3D3D3D;
 }
 
 .image-size {
@@ -38,6 +44,11 @@ h4 {
 p {
    margin-top:20px;
    margin-bottom:20px
+}
+
+.p2 {
+   margin-top:5px;
+   margin-bottom:5px
 }
 
 .box {
@@ -90,8 +101,10 @@ font-size: 22px;
 margin-top: 3px;
 }
 
-.navbar-fixed-bottom.navbar-inverse {
-  padding-bottom: 10px;
+.navbar-fixed-bottom {
+  background-color: #CCCCCC;
+  padding-bottom: 0px;
+  padding-top: 0px;
 }
 
 .clr {
