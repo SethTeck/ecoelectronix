@@ -1,5 +1,6 @@
 // @import url(http://getbootstrap.com/dist/css/bootstrap.css);
 @import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Nunito:300);
 
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
     height: auto;
@@ -35,10 +36,27 @@ h5 {
   color: #3D3D3D;
 }
 
+h6 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  color: #000000;
+  line-height: 130%;
+}
+
+.margin-text{
+  margin-top: 90px;
+}
+
 .image-size {
   height: 40px;
   width: auto;
   margin-top: 7px;
+}
+
+.image-size-2 {
+  height: 200px;
+  width: auto;
+  margin-top: 60px;
 }
 
 p {
@@ -61,6 +79,10 @@ p {
   margin-top:90px;
   padding: 20px;
   padding-top: 20px;
+}
+
+.bottom-nav {
+  margin-bottom: 250px;
 }
 
 .about_body {
