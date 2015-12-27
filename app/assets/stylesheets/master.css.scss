@@ -104,6 +104,7 @@ p {
   padding-left: 50px;
   padding-right: 50px;
   margin-bottom: 40%;
+  box-shadow: 0px 8px 20px #2a2a2a;
 }
 
 .navbar.navbar-inverse {
@@ -131,4 +132,8 @@ margin-top: 3px;
 
 .clr {
   clear:both;
+}
+
+.carousel {
+  box-shadow: 0px 1px 15px #2a2a2a;
 }
