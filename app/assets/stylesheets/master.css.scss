@@ -45,6 +45,7 @@ h6 {
 
 .margin-text{
   margin-top: 90px;
+  padding-left: 20px;
 }
 
 .image-size {
@@ -125,12 +126,6 @@ font-size: 22px;
 margin-top: 3px;
 }
 
-.navbar-fixed-bottom {
-  background-color: #CCCCCC;
-  padding-bottom: 0px;
-  padding-top: 0px;
-}
-
 .clr {
   clear:both;
 }
@@ -148,4 +143,10 @@ a:hover {
   width: 32px;
   margin: 4px;
   text-decoration: none;
+}
+
+div#footer > div.container {background-color:#CCCCCC;}
+
+.footer {
+  background-color: #CCCCCC;
 }
