@@ -57,6 +57,14 @@ h6 {
   font-size: 32px;
 }
 
+.h9 {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  color: #000000;
+  text-align: center;
+  padding-left: 20px;
+}
+
 .tab {
   margin-left: 40px;
 }
@@ -74,6 +82,11 @@ b {
   padding-left: 20px;
 }
 
+.margin-text2{
+  margin-top: 30px;
+  padding-left: 20px;
+}
+
 .image-size {
   height: 40px;
   width: auto;
@@ -83,7 +96,7 @@ b {
 .image-size-2 {
   height: 200px;
   width: auto;
-  margin-top: 60px;
+  margin-top: 0px;
 }
 
 .image-size-3 {
@@ -109,9 +122,9 @@ p {
   background: #fff;
   border: 1px solid #ccc;
   border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
-  margin-top:90px;
   padding: 20px;
   padding-top: 20px;
+  margin-bottom: 40px;
 }
 
 .bottom-nav {
