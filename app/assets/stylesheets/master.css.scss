@@ -69,6 +69,11 @@ h6 {
   font-size: 38px;
 }
 
+.h11 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+}
+
 .tab {
   margin-left: 40px;
 }
@@ -114,6 +119,17 @@ b {
   margin-top: 60px;
 }
 
+.image-size-4 {
+  height: 230px;
+  width: auto;
+}
+
+.image-size-5 {
+  height: 230px;
+  width: auto;
+  padding-left: 30px; 
+}
+
 p {
    margin-top:20px;
    margin-bottom:20px
@@ -135,6 +151,18 @@ p {
   padding-top: 20px;
   margin-bottom: 40px;
   border-radius: 10px;
+}
+
+.grey-box {
+  background: #EBEBEB;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.white-box {
+  background: #FFFFFF;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .bottom-nav {
