@@ -72,6 +72,14 @@ h6 {
 .h11 {
     font-family: 'Raleway', sans-serif;
     font-size: 24px;
+    padding-left: 50px;
+
+}
+
+.h12 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 37px;
+  padding-left: 50px;
 }
 
 .tab {
@@ -127,7 +135,7 @@ b {
 .image-size-5 {
   height: 230px;
   width: auto;
-  padding-left: 30px; 
+  padding-left: 30px;
 }
 
 p {
@@ -157,12 +165,14 @@ p {
   background: #EBEBEB;
   padding-top: 30px;
   padding-bottom: 30px;
+  padding-left: 10px;
 }
 
 .white-box {
   background: #FFFFFF;
   padding-top: 30px;
   padding-bottom: 30px;
+  padding-left: 10px;
 }
 
 .bottom-nav {
