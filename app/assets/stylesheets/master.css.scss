@@ -10,6 +10,7 @@
 
 .background-grey {
   background-color: grey;
+  border-radius: 10px;
 }
 
 .carousel-indicators {
@@ -22,30 +23,6 @@
 }
 .carousel-indicators .active {
   background-color: #0EA300;
-}
-//
-// .carousel-inner {
-//    margin-bottom:50px;
-// }
-
-.blockquote1 {
-  background: #f9f9f9;
-  border-left: 10px solid #ccc;
-  margin: 1.5em 10px;
-  padding: 0.5em 10px;
-  quotes: "\201C""\201D""\2018""\2019";
-}
-
-.blockquote1:before {
-  color: #ccc;
-  content: open-quote;
-  font-size: 4em;
-  line-height: 0.1em;
-  margin-right: 0.25em;
-  vertical-align: -0.4em;
-}
-.blockquote1 p {
-  display: inline;
 }
 
 h1 {
@@ -347,7 +324,7 @@ p {
 }
 
 .quote-box-xs {
-  background: #EBEBEB;
+  background: #FFFFFF;
   margin-top: 10px;
   margin-bottom: 0px;
   margin-right: 5px;
