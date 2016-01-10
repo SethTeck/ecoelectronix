@@ -5,8 +5,28 @@
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
     height: auto;
     width: auto;
-    margin-top: 60px
+    margin-top: 60px;
 }
+
+.background-grey {
+  background-color: grey;
+}
+
+.carousel-indicators {
+  bottom: 0px;
+  color: grey;
+}
+
+.carousel-indicators li {
+  background-color: #C2C2C2;
+}
+.carousel-indicators .active {
+  background-color: #0EA300;
+}
+//
+// .carousel-inner {
+//    margin-bottom:50px;
+// }
 
 .blockquote1 {
   background: #f9f9f9;
@@ -219,6 +239,12 @@ p {
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 10px;
+  border-style: solid;
+  border-color: grey;
+  border-radius: 10px;
+  border-width: 1px;
+  // border-top-width: 0px;
+  // border-bottom-width: 0px;
 }
 
 .white-box {
@@ -226,6 +252,25 @@ p {
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 10px;
+  border-style: solid;
+  border-color: grey;
+  border-radius: 10px;
+  border-width: 1px;
+}
+
+.white-box-top {
+  background: #FFFFFF;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  margin-top: 12px;
+  border-style: solid;
+  border-color: grey;
+  border-radius: 10px;
+  border-width: 1px;
+  border-top-width: 0px;
+  border-top-left-radius: 1px;
+  border-top-right-radius: 1px;
 }
 
 .text-box {
@@ -242,8 +287,8 @@ p {
 
 .review-box {
   background: #FFFFFF;
-  margin-top: 40px;
-  // margin-bottom: 40px;
+  margin-top: 60px;
+  margin-bottom: 60px;
   padding-bottom: 30px;
   border-style: solid;
   border-color: #A6A6A6;
@@ -350,7 +395,7 @@ margin-top: 3px;
 }
 
 .carousel {
-  box-shadow: 0px 1px 15px #2a2a2a;
+  box-shadow: 0px 1px 12px #2a2a2a;
 }
 
 a:hover {

@@ -30,8 +30,62 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <nav class="navbar navbar-inverse" role="navigation">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span> -->
+          <!-- <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span> -->
+        </button>
+        <%= link_to image_tag("web_logo_high.png", :class => "image-size image img-responsive"), root_path %>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+        </ul>
+        <ul class="nav navbar-nav navbar-right hidden-xs">
+          <li><%= link_to 'Our Mission', about_path %></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
 
 <%= yield %>
 
+ <br class="clr" />
+      <div class="footer">
+        <div class="col-xs-12 col-sm-4 col-sm-offset-1">
+          <h3><b>About</b></h3>
+          <h4><%= link_to 'Our Mission', about_path %>
+          <br />
+          <%= link_to 'Careers', careers_path %>
+          <br />
+          <%= link_to 'Privacy Policy', privacy_path %>
+          <br /></h4>
+          <h5>Copyright © 2015 EcoElectronix All rights reserved.</h5>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <h3><b>Contact</b></h3>
+          <h4>Support@EcoElectronix.com
+          <br />
+          5454 Queen Ann Lane
+          <br />
+          Santa Barbara CA, 93111</h4>
+        </div>
+        <div class="col-xs-12 col-sm-2">
+          <h3><b>Social</b></h3>
+          <%= link_to "https://www.facebook.com/ecofriendlyelectronix/" do %>
+          <%= image_tag 'face.png', :class => "social-button" %>
+          <% end %>
+          <%= link_to "https://twitter.com/Eco_Electronix" do %>
+          <%= image_tag 'twit.png', :class => "social-button" %>
+          <% end %>
+        </div>
+      </div>
 </body>
 </html>
