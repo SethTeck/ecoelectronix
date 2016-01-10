@@ -2,6 +2,11 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 @import url(https://fonts.googleapis.com/css?family=Nunito:300);
 
+.home-image {
+  box-shadow: 0px 1px 12px #2a2a2a;
+}
+
+
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
     height: auto;
     width: auto;
@@ -18,6 +23,11 @@
 .carousel-indicators .active {
   background-color: #0EA300;
 }
+
+ul.nav a:hover {
+  color: #39b54a !important;
+}
+
 
 h1 {
   font-family: 'Raleway', sans-serif;
@@ -129,6 +139,7 @@ h6 {
 .landing {
   height: auto;
   width: auto;
+  margin-top: 60px;
 }
 
 b {
@@ -180,6 +191,13 @@ b {
   width: auto;
   padding-left: 75px;
   border-radius: 10px;
+}
+
+.image-size-8 {
+  height: 170px;
+  width: auto;
+  padding-left: 40px;
+  margin-top: 20px;
 }
 
 p {
@@ -237,6 +255,34 @@ p {
   padding-bottom: 20px;
   padding-left: 10px;
   margin-top: 17px;
+  border-style: solid;
+  border-color: grey;
+  border-radius: 10px;
+  border-width: 1px;
+  // border-top-width: 0px;
+  // border-top-left-radius: 1px;
+  // border-top-right-radius: 1px;
+}
+
+.white-box-main {
+  background-image: url('paper_fibers.png');
+  // background: #FFFFFF;
+  margin-top: 12px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  border-style: solid;
+  border-color: grey;
+  border-radius: 10px;
+  border-width: 1px;
+}
+
+.white-box-top-main {
+  background: #FFFFFF;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  margin-top: 70px;
   border-style: solid;
   border-color: grey;
   border-radius: 10px;
@@ -382,10 +428,10 @@ p {
 }
 
 .navbar.navbar-inverse {
-  // background:url('/assets/barpattern.png');
+  background:url('/assets/black.png');
   border-radius: 0;
   box-shadow: 0px 1px 3px #2a2a2a;
-  margin-bottom:0px;
+  margin-bottom:60px;
   height: 60px;
   position:absolute;
   z-index:10;
