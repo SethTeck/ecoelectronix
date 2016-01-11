@@ -10,6 +10,13 @@ body {
     background-image: url("pixel_weave.png");
 }
 
+.border {
+  border-style: solid;
+  border-color: #39b54a;
+  border-radius: 10px;
+  border-width: 1px;
+}
+
 ul { list-style-position: outside; list-style-type: circle }
 
 .overflow { vertical-align:top; }
@@ -136,8 +143,8 @@ h6 {
 .h16 {
   font-family: 'Raleway', sans-serif;
   font-size: 32px;
-  padding-top: 70px;
-  padding-bottom: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .h17 {
@@ -343,6 +350,18 @@ p {
   margin-right: 50px;
 }
 
+.text-box2 {
+  // background-image: url('paper_fibers.png');
+  background: #FFFFFF;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: darkgrey;
+  border-radius: 10px;
+}
+
 .review-box {
   background-image: url('paper_fibers.png');
   // background: #FFFFFF;
@@ -350,7 +369,7 @@ p {
   margin-bottom: 0px;
   padding-bottom: 30px;
   border-style: solid;
-  border-width: 2px;
+  border-width: 1px;
   border-color: #39b54a;
   border-radius: 10px;
 }
