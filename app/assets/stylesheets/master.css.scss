@@ -152,8 +152,8 @@ h6 {
 .h16 {
   font-family: 'Raleway', sans-serif;
   font-size: 32px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 60px;
+  margin-bottom: 50px;
 }
 
 .h17 {
@@ -161,6 +161,13 @@ h6 {
     font-style: bold;
     font-size: 17px;
     line-height: 140%;
+}
+
+.h18 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 32px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .tab {
@@ -385,7 +392,7 @@ p {
   // background: #FFFFFF;
   margin-top: 18px;
   margin-bottom: 0px;
-  padding-bottom: 30px;
+  padding-bottom: 0px;
   border-style: solid;
   border-width: 1px;
   border-color: darkgrey;
@@ -424,6 +431,21 @@ p {
   padding-left: 30px;
   padding-right: 30px;
   padding-bottom: 25px;
+  border-radius: 10px;
+  background-image: url("quote.png");
+  background-repeat: no-repeat;
+  background-size: 35px 25px;
+  background-position: left top;
+}
+
+.quote-box-bottom {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-left: 25px;
+  padding-top: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 0px;
   border-radius: 10px;
   background-image: url("quote.png");
   background-repeat: no-repeat;
