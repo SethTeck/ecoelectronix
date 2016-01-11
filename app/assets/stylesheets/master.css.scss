@@ -6,6 +6,10 @@
   box-shadow: 0px 1px 12px #2a2a2a;
 }
 
+body {
+    background-image: url("pixel_weave.png");
+}
+
 ul { list-style-position: outside; list-style-type: circle }
 
 .overflow { vertical-align:top; }
@@ -370,45 +374,6 @@ p {
   border-radius: 10px;
   border-width: 1px;
 }
-//
-// .border-grey {
-//   background-color: white;
-//   border-radius: 10px;
-// }
-
-
-// .quote-box-left {
-//   background: #FFFFFF;
-//   margin-top: 10px;
-//   margin-bottom: 0px;
-//   margin-right: 5px;
-//   margin-left: 98px;
-//   padding-top: 15px;
-//   padding-left: 30px;
-//   padding-right: 30px;
-//   padding-bottom: 25px;
-//   border-radius: 10px;
-//   background-image: url("quote.png");
-//   background-repeat: no-repeat;
-//   background-size: 30px 25px;
-//   background-position: left top;
-// }
-//
-// .quote-box-right {
-//   background: #FFFFFF;
-//   margin-top: 10px;
-//   margin-bottom: 0px;
-//   margin-left: 5px;
-//   padding-top: 15px;
-//   padding-left: 30px;
-//   padding-right: 30px;
-//   padding-bottom: 25px;
-//   border-radius: 10px;
-//   background-image: url("quote.png");
-//   background-repeat: no-repeat;
-//   background-size: 35px 25px;
-//   background-position: left top;
-// }
 
 .quote-box {
   margin-top: 10px;
