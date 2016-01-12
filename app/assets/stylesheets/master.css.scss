@@ -1,6 +1,8 @@
 // @import url(http://getbootstrap.com/dist/css/bootstrap.css);
-@import url(https://fonts.googleapis.com/css?family=Raleway);
-@import url(https://fonts.googleapis.com/css?family=Nunito:300);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,200,100);
+@import url(https://fonts.googleapis.com/css?family=Nunito:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,100,300);
+
 
 .home-image {
   box-shadow: 0px 1px 12px #2a2a2a;
@@ -13,7 +15,7 @@
  }
 
 body {
-    background-image: url("squared_metal.png");
+    background-image: url("knitted-netting.png");
 }
 
 .border {
@@ -30,6 +32,17 @@ ul {
 
 .overflow { vertical-align:top; }
 
+.carousel-caption {
+    top: -15px;
+    bottom: auto;
+    max-width: 1500px;
+    margin-right: auto;
+    padding: 0 20px;
+    line-height: 140%;
+    // margin:0 auto;
+    // margin-top: 200px;
+    text-align:center;
+}
 
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
     height: auto;
@@ -66,20 +79,21 @@ h2 {
   font-size: 18px;
 }
 
-h3 {
+.h23 {
   font-family: 'Raleway', sans-serif;
   font-size: 14px;
   color: #3D3D3D;
+  // line-height: 10%;
 }
 
-h4 {
+.h24 {
   font-family: 'Raleway', sans-serif;
   font-size: 12px;
   color: #6E6E6E;
   line-height: 130%;
 }
 
-h5 {
+.h25 {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 10px;
   color: #3D3D3D;
@@ -97,7 +111,9 @@ h6 {
   font-size: 15px;
   color: #000000;
   text-align: left;
+  line-height: 130%;
   padding-left: 20px;
+  font-weight: 200;
 }
 
 .h8 {
@@ -111,6 +127,8 @@ h6 {
   font-size: 18px;
   color: #000000;
   text-align: center;
+  line-height: 140%;
+  font-weight: 200;
 }
 
 .h10 {
@@ -122,12 +140,15 @@ h6 {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     padding-left: 50px;
+    line-height: 135%;
+    font-weight: 300;
 }
 
 .h12 {
   font-family: 'Raleway', sans-serif;
   font-size: 24px;
   padding-left: 50px;
+  font-weight: 400;
 }
 
 .h13 {
@@ -184,6 +205,12 @@ h6 {
   // margin-top: 10px;
   // margin-bottom: 10px;
   line-height: 140%;
+}
+
+.h21 {
+  font-family: 'Lato', sans-serif;
+  font-size: 38px;
+  font-weight: 100;
 }
 
 .tab {
@@ -416,7 +443,19 @@ p {
   // border-top-right-radius: 1px;
 }
 
-.white-box-top-red {
+.white-box-top-ex {
+  // background-image: url('pixel_weave.png');
+  // background: #FFFFFF;
+  // padding-top: 20px;
+  padding-bottom: 10px;
+  margin-top: 17px;
+  // border-style: solid;
+  // border-color: #39b54a;
+  border-radius: 10px;
+  // border-width: 2px;
+}
+
+.white-box-red {
   background: #FFFFFF;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -493,8 +532,8 @@ p {
   padding-left: 20px;
   padding-right: 20px;
   border-style: solid;
-  border-width: 2px;
-  border-color: darkgrey;
+  border-width: 1px;
+  border-color: #39b54a;
   border-radius: 10px;
 }
 
@@ -659,9 +698,10 @@ a:hover {
 }
 
 .social-button {
-  width: 32px;
-  margin: 4px;
+  width: 22px;
+  margin-top: 4px;
   text-decoration: none;
+  padding-bottom: 15px;
 }
 
 div#footer > div.container {background-color:#CCCCCC;}
