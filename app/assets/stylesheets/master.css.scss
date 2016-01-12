@@ -25,7 +25,7 @@ body {
 
 ul {
   list-style-position: outside;
-  list-style-image: url('check.png');
+  list-style-image: url('check2.png');
 }
 
 .overflow { vertical-align:top; }
@@ -159,13 +159,13 @@ h6 {
 .h17 {
     font-family: 'Raleway', sans-serif;
     font-style: bold;
-    font-size: 17px;
+    font-size: 18px;
     line-height: 140%;
 }
 
 .h18 {
   font-family: 'Raleway', sans-serif;
-  font-size: 32px;
+  font-size: 36px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -176,6 +176,15 @@ h6 {
 
 .tab2 {
   margin-left: 80px;
+}
+
+.tab3 {
+  margin-left: 10px;
+}
+
+.left-margin {
+  margin-left: 20px;
+
 }
 
 .landing {
