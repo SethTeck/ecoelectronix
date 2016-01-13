@@ -32,16 +32,8 @@ ul {
 
 .overflow { vertical-align:top; }
 
-.carousel-caption {
-    top: -15px;
-    bottom: auto;
-    max-width: 1500px;
-    margin-right: auto;
-    padding: 0 20px;
-    line-height: 140%;
-    // margin:0 auto;
-    // margin-top: 200px;
-    text-align:center;
+.glyphicon .glyphicon-chevron-right {
+  color: green;
 }
 
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
@@ -208,9 +200,10 @@ h6 {
 }
 
 .h21 {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  // font-family: 'Lato', sans-serif;
   font-size: 38px;
-  font-weight: 100;
+  font-weight: 200;
 }
 
 .tab {
@@ -450,9 +443,9 @@ p {
   padding-bottom: 10px;
   margin-top: 17px;
   // border-style: solid;
-  // border-color: #39b54a;
-  border-radius: 10px;
-  // border-width: 2px;
+  // border-color: black;
+  // border-radius: 10px;
+  // border-width: 1px;
 }
 
 .white-box-red {
