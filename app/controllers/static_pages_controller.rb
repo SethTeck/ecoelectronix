@@ -6,4 +6,16 @@ class StaticPagesController < ApplicationController
   def about
   end
 
+  def cancel
+  end
+
+  def outofstock
+  end
+
+  def thankyou
+  end
+
+  def checkout
+  end
+
 end
