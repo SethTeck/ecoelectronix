@@ -1,5 +1,5 @@
 class StaticPagesController < ApplicationController
-  skip_before_action :verify_authenticity_token, only: [:post]
+  skip_before_filter  :verify_authenticity_token
 
   def index
   end
