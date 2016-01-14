@@ -20,7 +20,7 @@ class StaticPagesController < ApplicationController
   end
 
   def callback
-    redirect_to root_path
+    redirect_to outofstock_path
   end
 
 end
