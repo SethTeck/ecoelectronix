@@ -19,8 +19,16 @@ class StaticPagesController < ApplicationController
   def checkout
   end
 
-  def callback
+  def callback_outofstock
     redirect_to outofstock_path
+  end
+
+  def callback_cancel
+    redirect_to cancel_path
+  end
+
+  def callback_thank_you
+    redirect_to thankyou_path
   end
 
 end

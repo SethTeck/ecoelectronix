@@ -9,7 +9,9 @@ Ecoelectronix::Application.routes.draw do
   get 'checkout', :to => 'static_pages#checkout'
   get 'outofstock', :to => 'static_pages#outofstock'
   get 'ex25', :to => 'landings#ex25'
-  post 'callback', :to => 'static_pages#callback'
+  post 'callback_outofstock', :to => 'static_pages#callback_outofstock'
+  post 'callback_thank_you', :to => 'static_pages#callback_thank_you'
+  post 'callback_cancel', :to => 'static_pages#callback_cancel'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
