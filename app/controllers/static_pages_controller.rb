@@ -1,4 +1,5 @@
 class StaticPagesController < ApplicationController
+  skip_before_action :verify_authenticity_token, only: [:post]
 
   def index
   end
@@ -18,8 +19,8 @@ class StaticPagesController < ApplicationController
   def checkout
   end
 
-  def callback
-    redirect_to root_path
-  end
+  # def callback
+  #   redirect_to root_path
+  # end
 
 end
