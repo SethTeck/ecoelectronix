@@ -319,6 +319,20 @@ b {
   width: auto;
 }
 
+.image-size-11 {
+  height: 190px;
+  width: auto;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.image-size-12 {
+  height: 190px;
+  width: auto;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
 p {
    margin-top:20px;
    margin-bottom:20px
@@ -709,7 +723,7 @@ a:hover {
   padding-bottom: 15px;
 }
 
-div#footer > div.container {background-color:#CCCCCC;}
+// div#footer > div.container {background-color:#CCCCCC;}
 
 .footer {
   // background-color: #CCCCCC;
