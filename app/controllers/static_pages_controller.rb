@@ -19,8 +19,8 @@ class StaticPagesController < ApplicationController
   def checkout
   end
 
-  # def callback
-  #   redirect_to root_path
-  # end
+  def callback
+    redirect_to root_path
+  end
 
 end
