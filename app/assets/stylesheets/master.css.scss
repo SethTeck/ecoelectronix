@@ -648,7 +648,7 @@ p {
   background-image: url('brushed-alum-dark-copy2.png');
   // background: #FFFFFF;
   margin-top: 12px;
-  margin-bottom: 40px; 
+  margin-bottom: 40px;
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 10px;
@@ -688,6 +688,7 @@ p {
 
 .navbar.navbar-inverse {
   background:url('/assets/black.png');
+  padding-right: 15px;
   border-radius: 0;
   box-shadow: 0px 1px 3px #2a2a2a;
   margin-bottom:60px;
@@ -699,6 +700,7 @@ p {
 
 .navbar-inverse .navbar-right {
 font-family: 'Raleway', sans-serif;
+font-weight: 200;
 font-size: 22px;
 margin-top: 3px;
 }
