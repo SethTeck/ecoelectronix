@@ -8854,28 +8854,58 @@ ul {
   background-color: #0EA300;
 }
 
-/* line 56, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
-ul.nav a:hover {
-  color: #39b54a !important;
-}
-
-/* line 60, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
-ul.nav a:active {
-  color: #00FF15 !important;
+/* line 61, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+ul.nav.grey a:hover {
+  color: #CCCCCC !important;
 }
 
 /* line 65, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+ul.nav.grey a:active {
+  color: #FFFFFF !important;
+}
+
+/* line 69, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+ul.nav.green a:hover {
+  color: #39b54a !important;
+}
+
+/* line 73, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+ul.nav.green a:active {
+  color: #00e51f !important;
+}
+
+/* line 77, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+ul.nav.blue a:hover {
+  color: #107db0 !important;
+}
+
+/* line 81, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+ul.nav.blue a:active {
+  color: #17aaee !important;
+}
+
+/* line 85, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+ul.nav.orange a:hover {
+  color: #cc7a00 !important;
+}
+
+/* line 89, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+ul.nav.orange a:active {
+  color: #ff9900 !important;
+}
+
+/* line 94, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 h1 {
   font-family: 'Raleway', sans-serif;
 }
 
-/* line 69, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 98, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 h2 {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
 }
 
-/* line 74, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 103, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 h6 {
   font-family: 'Nunito', sans-serif;
   font-size: 20px;
@@ -8883,7 +8913,7 @@ h6 {
   line-height: 130%;
 }
 
-/* line 81, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 110, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .h7 {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 15px;
@@ -8894,14 +8924,14 @@ h6 {
   font-weight: 200;
 }
 
-/* line 91, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 120, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .h8 {
   font-family: 'Raleway', sans-serif;
   padding-left: 20px;
   font-size: 32px;
 }
 
-/* line 97, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 126, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .h9 {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 18px;
@@ -8911,13 +8941,13 @@ h6 {
   font-weight: 200;
 }
 
-/* line 106, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 135, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .h10 {
   font-family: 'Raleway', sans-serif;
   font-size: 38px;
 }
 
-/* line 111, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 140, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .h11 {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
@@ -8926,7 +8956,7 @@ h6 {
   font-weight: 300;
 }
 
-/* line 119, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 148, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .h12 {
   font-family: 'Raleway', sans-serif;
   font-size: 24px;
@@ -8934,7 +8964,7 @@ h6 {
   font-weight: 400;
 }
 
-/* line 126, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 155, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .h13 {
   font-family: 'Raleway', sans-serif;
   font-size: 15px;
@@ -8943,20 +8973,20 @@ h6 {
   color: grey;
 }
 
-/* line 134, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 163, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .h14 {
   font-family: 'Raleway', sans-serif;
   font-size: 15px;
 }
 
-/* line 139, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 168, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .h15 {
   font-family: 'Raleway', sans-serif;
   font-size: 15px;
   line-height: 140%;
 }
 
-/* line 145, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 174, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .h16 {
   font-family: 'Raleway', sans-serif;
   font-size: 32px;
@@ -8964,7 +8994,7 @@ h6 {
   margin-bottom: 50px;
 }
 
-/* line 152, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 181, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .h17 {
   font-family: 'Raleway', sans-serif;
   font-style: bold;
@@ -8972,7 +9002,7 @@ h6 {
   line-height: 140%;
 }
 
-/* line 159, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 188, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .h18 {
   font-family: 'Raleway', sans-serif;
   font-size: 36px;
@@ -8981,7 +9011,7 @@ h6 {
   font-weight: 300;
 }
 
-/* line 167, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 196, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .h19 {
   font-family: 'Raleway', sans-serif;
   font-size: 36px;
@@ -8990,21 +9020,21 @@ h6 {
   line-height: 140%;
 }
 
-/* line 175, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 204, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .h20 {
   font-family: 'Raleway', sans-serif;
   font-size: 24px;
   line-height: 140%;
 }
 
-/* line 183, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 212, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .h21 {
   font-family: 'Raleway', sans-serif;
   font-size: 38px;
   font-weight: 200;
 }
 
-/* line 190, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 219, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .h22 {
   font-family: 'Raleway', sans-serif;
   font-size: 38px;
@@ -9012,14 +9042,14 @@ h6 {
   padding-top: 15px;
 }
 
-/* line 198, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 227, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .h23 {
   font-family: 'Raleway', sans-serif;
   font-size: 14px;
   color: #3D3D3D;
 }
 
-/* line 205, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 234, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .h24 {
   font-family: 'Raleway', sans-serif;
   font-size: 12px;
@@ -9027,7 +9057,7 @@ h6 {
   line-height: 130%;
 }
 
-/* line 212, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 241, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .h25 {
   font-family: 'Raleway', sans-serif;
   font-size: 10px;
@@ -9036,14 +9066,14 @@ h6 {
   font-weight: 400;
 }
 
-/* line 222, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 251, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .h26 {
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
   font-size: 31px;
 }
 
-/* line 228, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 257, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .h27 {
   font-family: 'Raleway', sans-serif;
   font-size: 15px;
@@ -9053,79 +9083,79 @@ h6 {
   font-weight: 300;
 }
 
-/* line 237, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 266, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .tab {
   margin-left: 40px;
 }
 
-/* line 241, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 270, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .tab2 {
   margin-left: 80px;
 }
 
-/* line 245, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 274, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .tab3 {
   margin-left: 10px;
 }
 
-/* line 249, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 278, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .left-margin {
   margin-left: 20px;
 }
 
-/* line 254, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 283, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .landing {
   height: auto;
   width: auto;
   margin-top: 60px;
 }
 
-/* line 260, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 289, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .landing {
   height: auto;
   width: auto;
   margin-top: 60px;
 }
 
-/* line 266, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 295, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 b {
   font-weight: 700;
 }
 
-/* line 270, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 299, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .margin-text {
   margin-top: 90px;
   padding-left: 20px;
 }
 
-/* line 275, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 304, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .margin-text2 {
   margin-top: 30px;
   padding-left: 20px;
 }
 
-/* line 280, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 309, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .image-size {
   height: 40px;
   width: auto;
   margin-top: 7px;
 }
 
-/* line 286, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 315, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .image-size-2 {
   height: 200px;
   width: auto;
   margin-top: 0px;
 }
 
-/* line 292, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 321, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .image-size-3 {
   height: 190px;
   width: auto;
   margin-top: 60px;
 }
 
-/* line 298, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 327, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .image-size-5 {
   height: 170px;
   width: auto;
@@ -9133,13 +9163,13 @@ b {
   padding-top: 0px;
 }
 
-/* line 305, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 334, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .image-size-6 {
   height: 170px;
   width: auto;
 }
 
-/* line 310, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 339, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .image-size-7 {
   height: 70px;
   width: auto;
@@ -9147,7 +9177,7 @@ b {
   border-radius: 10px;
 }
 
-/* line 317, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 346, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .image-size-8 {
   height: 170px;
   width: auto;
@@ -9155,7 +9185,7 @@ b {
   margin-top: 20px;
 }
 
-/* line 324, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 353, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .image-size-9 {
   height: 150px;
   width: auto;
@@ -9165,25 +9195,25 @@ b {
   margin-bottom: 0px;
 }
 
-/* line 333, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 362, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .image-size-10 {
   height: 190px;
   width: auto;
 }
 
-/* line 338, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 367, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 p {
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-/* line 343, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 372, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .p2 {
   margin-top: 5px;
   margin-bottom: 5px;
 }
 
-/* line 348, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 377, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .box {
   -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
   -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
@@ -9197,7 +9227,7 @@ p {
   border-radius: 10px;
 }
 
-/* line 361, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 390, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .grey-box-border-green1 {
   background: #EBEBEB;
   padding-top: 20px;
@@ -9210,7 +9240,7 @@ p {
   margin-top: 12px;
 }
 
-/* line 375, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 404, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .grey-box-border-green2 {
   background: #EBEBEB;
   padding-top: 20px;
@@ -9223,7 +9253,7 @@ p {
   margin-top: 12px;
 }
 
-/* line 389, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 418, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .grey-box-border-blue {
   background: #EBEBEB;
   padding-top: 20px;
@@ -9236,7 +9266,7 @@ p {
   margin-top: 12px;
 }
 
-/* line 404, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 433, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .white-box-border-orange {
   background: #FFFFFF;
   margin-top: 12px;
@@ -9249,7 +9279,7 @@ p {
   border-width: 1px;
 }
 
-/* line 416, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 445, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .white-box-border-yellow {
   background: #FFFFFF;
   margin-top: 12px;
@@ -9262,7 +9292,7 @@ p {
   border-width: 1px;
 }
 
-/* line 428, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 457, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .white-box {
   background: #FFFFFF;
   margin-top: 12px;
@@ -9275,7 +9305,7 @@ p {
   border-width: 1px;
 }
 
-/* line 440, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 469, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .grey-box {
   background: #EBEBEB;
   margin-top: 12px;
@@ -9288,7 +9318,7 @@ p {
   border-width: 1px;
 }
 
-/* line 452, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 481, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .white-box-top {
   background: #FFFFFF;
   padding-top: 20px;
@@ -9301,13 +9331,13 @@ p {
   border-width: 1px;
 }
 
-/* line 467, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 496, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .white-box-top-ex {
   padding-bottom: 10px;
   margin-top: 17px;
 }
 
-/* line 479, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 508, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .white-box-red {
   background: #FFFFFF;
   padding-top: 20px;
@@ -9320,7 +9350,7 @@ p {
   border-width: 1px;
 }
 
-/* line 494, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 523, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .white-box-main {
   background-image: url("paper_fibers.png");
   margin-top: 12px;
@@ -9333,7 +9363,7 @@ p {
   border-width: 1px;
 }
 
-/* line 507, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 536, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .white-box-top-main {
   background: #FFFFFF;
   padding-top: 20px;
@@ -9346,7 +9376,7 @@ p {
   border-width: 1px;
 }
 
-/* line 522, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 551, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .blue-box {
   background: #DEFFDF;
   margin-top: 12px;
@@ -9359,7 +9389,7 @@ p {
   border-width: 1px;
 }
 
-/* line 534, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 563, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .text-box {
   background: #FFFFFF;
   margin-top: 50px;
@@ -9373,7 +9403,7 @@ p {
   margin-right: 50px;
 }
 
-/* line 548, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 577, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .text-box2 {
   background: #FFFFFF;
   margin-top: 30px;
@@ -9386,7 +9416,7 @@ p {
   border-radius: 10px;
 }
 
-/* line 561, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 590, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .review-box {
   background-image: url("paper_fibers.png");
   margin-top: 18px;
@@ -9398,7 +9428,7 @@ p {
   border-radius: 10px;
 }
 
-/* line 573, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 602, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .summary-box {
   background: #FFFFFF;
   margin-top: 15px;
@@ -9410,7 +9440,7 @@ p {
   border-radius: 10px;
 }
 
-/* line 584, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 613, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .feature-box {
   background: #FFFFFF;
   margin-top: 0px;
@@ -9424,7 +9454,7 @@ p {
   border-width: 1px;
 }
 
-/* line 597, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 626, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .quote-box {
   margin-top: 10px;
   margin-bottom: 0px;
@@ -9440,7 +9470,7 @@ p {
   background-position: left top;
 }
 
-/* line 612, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 641, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .quote-box-bottom {
   margin-top: 10px;
   margin-bottom: 0px;
@@ -9456,7 +9486,7 @@ p {
   background-position: left top;
 }
 
-/* line 627, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 656, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .quote-box-xs {
   background: #FFFFFF;
   margin-top: 10px;
@@ -9476,7 +9506,7 @@ p {
   border-width: 1px;
 }
 
-/* line 646, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 675, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .sell-box {
   background-image: url("brushed-alum-dark-copy2.png");
   padding-top: 40px;
@@ -9490,7 +9520,7 @@ p {
   border-width: 1px;
 }
 
-/* line 663, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 692, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .paypal-box {
   background-image: url("brushed-alum-dark-copy2.png");
   margin-top: 12px;
@@ -9504,13 +9534,13 @@ p {
   border-width: 2px;
 }
 
-/* line 677, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 706, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .bottom-nav {
   margin-bottom: 120px;
   background: url("/assets/squared_metal.png");
 }
 
-/* line 682, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 711, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .about_body {
   width: 100%;
   height: auto;
@@ -9518,12 +9548,12 @@ p {
   background-size: cover;
 }
 
-/* line 689, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 718, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .line {
   line-height: 150%;
 }
 
-/* line 693, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 722, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .frosty {
   background: rgba(0, 0, 0, 0.7);
   color: white;
@@ -9536,7 +9566,7 @@ p {
   border-radius: 10px;
 }
 
-/* line 705, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 734, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .navbar.navbar-inverse {
   background: url("/assets/black.png");
   padding-right: 15px;
@@ -9549,7 +9579,7 @@ p {
   width: 100%;
 }
 
-/* line 717, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 746, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .navbar-inverse .navbar-right {
   font-family: 'Raleway', sans-serif;
   font-weight: 200;
@@ -9557,23 +9587,23 @@ p {
   margin-top: 3px;
 }
 
-/* line 724, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 753, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .clr {
   clear: both;
 }
 
-/* line 728, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 757, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .carousel {
   box-shadow: 0px 1px 12px #2a2a2a;
 }
 
-/* line 732, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 761, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 a:hover {
   background: none;
   text-decoration: none;
 }
 
-/* line 737, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 766, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .social-button {
   width: 22px;
   margin-top: 4px;
@@ -9581,35 +9611,35 @@ a:hover {
   padding-bottom: 15px;
 }
 
-/* line 746, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 775, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .footer {
   background: url("/assets/squared_metal.png");
 }
 
-/* line 751, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 780, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 .top {
   padding-top: 60px;
 }
 
-/* line 755, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 784, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 a:link {
   color: black;
 }
 
 /* visited link */
-/* line 760, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 789, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 a:visited {
   color: black;
 }
 
 /* mouse over link */
-/* line 765, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 794, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 a:hover {
   color: black;
 }
 
 /* selected link */
-/* line 770, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
+/* line 799, /vagrant/src/ecoelectronix/app/assets/stylesheets/master.css.scss */
 a:active {
   color: green;
 }
