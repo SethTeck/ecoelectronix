@@ -3,7 +3,6 @@ Ecoelectronix::Application.routes.draw do
   get 'about', :to => 'static_pages#about'
   get "privacy", :to => "static_pages#privacy"
   get "careers", :to => "static_pages#careers"
-  get "team", :to => "static_pages#team"
   get 'cancel', :to => 'static_pages#cancel'
   get 'thankyou', :to => 'static_pages#thankyou'
   get 'checkout', :to => 'static_pages#checkout'
